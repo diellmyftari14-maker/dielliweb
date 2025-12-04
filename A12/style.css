@@ -1,0 +1,20 @@
+*{
+    background-color: blue;
+}
+/* html, body edhe p */
+
+p{
+    color: red;
+    background-color: aqua;
+}
+/* p - selektori */
+
+div, p{
+    background-color: bisque;
+}
+/* div > p */
+
+div + p{
+    /* p behet pjese e divit */
+    background-color: purple;
+}

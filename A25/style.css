@@ -1,0 +1,13 @@
+.main{
+    width: 200px;
+    height: 200px;
+    /* background-image: linear-gradient(red, green, blue, yellow); */
+    /* background-image: radial-gradient(pink, purple, rgb(119,119,211)); */
+    background-image: linear-gradient(to bottom right, red, blue);
+    background-image: url(https://cdn.unenvironment.org/events/2022-04/erik-ringsmuth-d3a6KbEmsE8-unsplash.jpg);
+    background-size: cover;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    background-position: right;
+    border: 1px solid red;
+}

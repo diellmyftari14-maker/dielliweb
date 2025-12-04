@@ -1,0 +1,23 @@
+.main{
+    background-color: grey;
+    background-image: url(https://th.bing.com/th/id/OIP.K4w6eGrSgWJXjfM2wd8a1wHaE6?w=293&h=194&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3);
+    background-size: cover;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    color: white;
+    transition: .2s ease;
+}
+.nature{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    background-color: green;
+    width: 100%;
+    display: none;
+}
+.main:hover .nature{
+    display: block;
+    transition: .2s ease;
+    height: 400px;
+}

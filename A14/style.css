@@ -1,0 +1,45 @@
+.main1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    /* position: static eshte by default */
+    position: relative;
+    top: 100px;
+    left: 50px;
+    /* nese shtyhet nje element e shtyn tjetrin qe e ka afer */
+}
+#main2{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+}
+.box{
+    width: 250px;
+    height: 100px;
+    background-color: purple;
+    position: sticky;
+    /* top: 50px; */
+    /* position: fixed;*/
+    top: 0;
+}
+p{
+    font-size: 40px;
+}
+.parent{
+    position: fixed;
+    border: 3px solid black;
+    width: 100%;
+}
+img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.menus{
+    float: right;
+    background-color: burlywood;
+    left: -300px;
+}

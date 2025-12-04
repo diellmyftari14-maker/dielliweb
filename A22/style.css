@@ -1,0 +1,30 @@
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: cadetblue;
+    color: #333333;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid cadetblue;
+    transition: 1s ease;
+}
+.button p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* kur e vendosim mausin mbi button ka me shku me ju ndryshu ngjyra e buttonit edhe e teksit */
+.button:hover{
+    background-color: transparent;
+    border: 1px solid cadetblue;
+    transition: 1s ease;
+    transition-delay: 2s;
+    /* transition-delay mbas dy sekondave fillon me u bo transition */
+    /* ease - i bjen transition qe fillon kadale edhe kryhet kadale */
+    /* ease in - qe ja nis kadale edhe kryhet shpejt */
+    /* ease-out qe kryhet ma kadale */
+    /* ease-in-out - qe ja nis kadale vazhdon shpejt edhe kryhet kadale */
+}
+/* kena me perdor transitions qe ngjyra me u ndryshu ma kadale jo ne second */

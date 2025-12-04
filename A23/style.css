@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .square {
+    width: 90px;
+    height: 90px;
+    transition: transform 0.8s ease;
+  }
+
+  .red { background: red; }
+  .blue { background: blue; }
+  .yellow { background: yellow; }
+  .green { background: green; }
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  /* Efekti gjatë hover-it */
+  .container:hover .red,
+  .container:hover .yellow {
+    transform: translateX(-120px) rotate(180deg);
+  }
+
+  .container:hover .blue,
+  .container:hover .green {
+    transform: translateX(120px) rotate(180deg);
+  }
+
+  .container:hover .text {
+    opacity: 1;
+  }

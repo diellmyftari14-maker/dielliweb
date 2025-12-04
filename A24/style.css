@@ -1,0 +1,27 @@
+/* kur nje element thirret ne css eshte nje selektor */
+
+p:hover{
+    color: red;
+    transition: .3s ease-in-out;
+}
+/* :hover ose ndonje veti qe mundemi me shtu te ni element osht nje pseudo klase(me nje par :) ose nje pseudo element( me dy par:) */
+/* kur i referohemi te gjithe elementit, psh krejt p krejt paragrafi ka me u bo hover, kemi pune me pseudo klasen edhe i perdorim vetem : */
+p::first-letter{
+    background-color: red;
+}
+p::first-line{
+    background-color: blue;
+}
+/* active-mbasi te klikohet linku */
+a:active{
+    color: brown;
+    text-decoration: none;
+}
+/* focus-kur klikojme te nje element psh input */
+.nje::after{
+    content: "Diell Myftari 😊";
+    /* windows edhe . per emoji */
+}
+p::before{
+    content: "Diell Myftari 😊";
+}

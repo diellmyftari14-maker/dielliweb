@@ -1,0 +1,19 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+/* 0pxpx - 767px - telefonat */
+/* 768px - 1023px- tabletat */
+/* 1024px e te nelte - laptop */
+
+@media screen and (max-width:1023px){
+    div{
+        background-color: red;
+    }
+}
+@media screen and (max-width:767px){
+    div{
+        background-color: blueviolet;
+    }
+}

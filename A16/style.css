@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    /* vw - me nxon komplet gjeresine e body */
+    height: 100vh;
+    /* vh - e nxen komplet height e faqes */
+    background-color: aqua;
+    display: flex;
+    /* display flex i caktohet prindit, per me i bo elementet inline brenda tij */
+    gap: 50px;
+    /* ben hapesire ne mes te elementeve */
+    align-items: center;
+    /* align-items: vlen pet vertikalisht */
+    justify-content: center;
+    justify-content: end;
+    /* justify-content: vlen per horizontalis
+    /* end - i vendos ne fund te faqes */
+    justify-content: start;
+    /* start - me vendos ne fillim */
+    justify-content: space-between;
+    /*sikur gap */
+    justify-content: space-evenly;
+    /* jep hapesire edhe jashta elemnteve */
+    justify-content: space-around;
+    /* hapsira anash elementeve osht sa gjysma mes tyre */
+}
+
+.box1,
+.box2 {
+    background-color: blueviolet;
+    height: 50%;
+    width: 40%;
+    /* display: inline-block; */
+    align-self: flex-start;
+}
